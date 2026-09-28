@@ -23,3 +23,16 @@ If no models appear, the 3D viewer probably needs a click to start, or it is
 on a separate configurator page. Run the script on that page's URL.
 
 The models belong to the site owner. Use them for personal viewing only.
+
+# Download every PNG from a page (no install)
+
+1. Open the page in Chrome or Edge and press F12, then open the **Console** tab.
+2. Paste the contents of `tools/download-pngs.js` and press Enter. If Chrome
+   warns about pasting, type `allow pasting` first.
+3. Chrome asks to allow multiple downloads. Click **Allow**.
+
+The snippet scrolls the page so lazy images load, then collects every PNG the
+page loaded (the same list as Network → Img), including CSS backgrounds.
+It downloads each one to your Downloads folder. PNGs on a CDN that blocks
+cross-origin requests are listed in the console instead: open each link and
+save it. The full URL list is also copied to your clipboard.
