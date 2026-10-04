@@ -36,3 +36,11 @@ page loaded (the same list as Network → Img), including CSS backgrounds.
 It downloads each one to your Downloads folder. PNGs on a CDN that blocks
 cross-origin requests are listed in the console instead: open each link and
 save it. The full URL list is also copied to your clipboard.
+
+# Car rig for Unreal Engine 5 (Rigacar-style)
+
+`CarRig/` is an Unreal Engine plugin that builds a Rigacar-style car Control
+Rig from a car rigged in Blender. Right-click the car's Skeletal Mesh and choose
+**Generate Car Rig**. It includes a Blender exporter for Rigacar cars and
+Sequencer baking for wheel rotation and steering. See
+[CarRig/README.md](CarRig/README.md).

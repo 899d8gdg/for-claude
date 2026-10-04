@@ -1,0 +1,18 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Car Rig",
+	"Description": "Rigacar-style car rig generator: right-click a car Skeletal Mesh > Generate Car Rig to build a Control Rig with Root, Drift, Steering, Suspension, wheel dampers, ground sensors and wheel spin, plus Sequencer baking for wheel rotation and steering.",
+	"Category": "Animation",
+	"CreatedBy": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": false,
+	"Plugins": [
+		{ "Name": "PythonScriptPlugin", "Enabled": true },
+		{ "Name": "EditorScriptingUtilities", "Enabled": true },
+		{ "Name": "ControlRig", "Enabled": true },
+		{ "Name": "SequencerScripting", "Enabled": true }
+	]
+}
